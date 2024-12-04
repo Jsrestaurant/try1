@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J'S Restaurant & Lounge</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Main Container with Layered Frame */
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #1a1a1a;
+            border-radius: 15px;
+            box-shadow: 
+                0 0 0 2px #333333, 
+                0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Title Styles */
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0000;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        /* Logo Styles */
+        .logo img {
+            max-width: 120px;
+            margin: 10px auto;
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        /* Red Frame for Review Offer */
+        .review-frame {
+            background-color: #ff0000;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffffff;
+            cursor: pointer;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .review-frame:hover {
+            background-color: #cc0000;
+        }
+
+        /* Intro Text */
+        p {
+            font-size: 14px;
+            color: #dddddd;
+            margin-bottom: 20px;
+        }
+
+        /* Link Styles */
+        .link {
+            display: block;
+            background-color: #000000;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+            border-radius: 8px;
+        }
+
+        .link:hover {
+            background-color: #ff0000;
+            color: #000000;
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(255, 0, 0, 0.5);
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #bbbbbb;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Title -->
+        <h1>J'S Restaurant & Lounge</h1>
+        
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://www.js-restaurant.com/wp-content/uploads/2024/06/logo-js.svg" alt="J'S Restaurant & Lounge Logo">
+        </div>
+
+        <!-- Red Frame with Offer -->
+        <div class="review-frame" onclick="window.location.href='https://g.co/kgs/Gcmu7EM'">
+            Review & Get a Free Drink
+        </div>
+
+        <!-- Intro Text -->
+        <p>
+            Experience a perfect beachfront dining getaway at J'S Restaurant & Lounge. Enjoy our innovative European cuisine, crafted with fresh local ingredients and complemented by a fine selection of wines. Book your table for a luxurious dining experience today.
+        </p>
+
+        <!-- Links -->
+        <a href="https://www.js-restaurant.com/" target="_blank" class="link">Website - Book Now</a>
+        <a href="https://www.instagram.com/js.restaurant.lounge?igsh=NjlyNm02dmNkZHgzJ’S" target="_blank" class="link">Instagram</a>
+        <a href="https://g.co/kgs/Gcmu7EM" target="_blank" class="link">Google Maps</a>
+        <a href="https://www.tripadvisor.com/Restaurant_Review-g1179396-d25787825-Reviews-J_s_Restaurant_Lounge-Bophut_Ko_Samui_Surat_Thani_Province.html" target="_blank" class="link">TripAdvisor Reviews</a>
+        <a href="https://www.facebook.com/JS.restaurant.lounge?mibextid=ZbWKwL" target="_blank" class="link">Facebook</a>
+
+        <!-- Footer -->
+        <footer>© 2024 J'S Restaurant & Lounge. Your perfect beachfront dining destination.</footer>
+    </div>
+</body>
+</html>
